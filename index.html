@@ -42,61 +42,48 @@
 </head>
 
 <body>
- <div>
-         <!-- start of search--> 		
-         <div id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
-            <h2>Search</h2>
-            <form action="/en/sr/srb.html" method="get" name="cse-search-box" role="search">
-               <div class="form-group wb-srch-qry"> 					<label for="wb-srch-q" class="wb-inv">Search Hi/Max.ca</label> 					<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" 						value="" size="34" maxlength="170" placeholder="Search Hi/Max.ca"> 				</div>
-               <div class="form-group submit"> 					<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span 							class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button> 				</div>
-            </form>
-         </div>
-         <!--end of search--> 	
+    <!-- start of search--> 
+  <div>
+       		
+    <div id="wb-srch" aria-label="Site search" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
+        <h2>Search</h2>
+        <form action="/en/sr/srb.html" method="get" name="cse-search-box" role="search">
+           <div class="form-group wb-srch-qry"> 					<label for="wb-srch-q" class="wb-inv">Search Hi/Max.ca</label> 					<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" 						value="" size="34" maxlength="170" placeholder="Search Hi/Max.ca"> 				</div>
+           <div class="form-group submit"> 					<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span 							class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button> 				</div>
+        </form>
+     </div>
+         	
       </div>
+      <!--end of search--> 
+       	 <!-- start of header--> 
       <div>
-	<div> <!-- start of search-->
-		<section role="search" aria-label="Site search" id="wb-srch" class="col-lg-offset-4 col-md-offset-4 col-sm-offset-2 col-xs-12 col-sm-5 col-md-4">
-			<h2>Search</h2>
-			<form action="/en/sr/srb.html" method="get" name="cse-search-box">
-				<div class="form-group wb-srch-qry">
-					<label for="wb-srch-q" class="wb-inv">Search Hi/Max.ca</label>
-					<input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="34" maxlength="170" placeholder="Search Hi/Max.ca">
-				</div>
-				<div class="form-group submit">
-					<button type="submit" id="wb-srch-sub" class="btn btn-primary btn-small" name="wb-srch-sub"><span class="glyphicon-search glyphicon"></span><span class="wb-inv">Search</span></button>
-				</div>
-			</form>
-		</section> <!--end of search-->
-	</div>
-	
-<div> <!-- start of header-->
-		<header aria-label="Website header" class="app-bar">
-			<div class="container">
-				<div class="row">
-					<section class="col-xs-12">
-						<h2 class="wb-inv">Hi/Max.ca</h2>
-						<a class="app-name" href="./index-en.html">Hi/Max Real Estate</a>
-					</section>
-				</div>
-			</div>
-		</header>
-
-		<nav aria-label="Main navigation" id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg">
-			<div class="pnl-strt container nvbar">
-				<h2>Topics menu</h2>
-				<div class="row">
-					<ul role="menubar" class="list-inline menu">
-						<li><a class="item" href="index-en.html" tabindex="0" aria-posinset="1" aria-setsize="7" role="menuitem">Home</a></li>
-						<li><a class="item" href="internet-en.html" tabindex="-1" aria-posinset="2" aria-setsize="7" role="menuitem">Buying</a></li>
-						<li><a class="item" href="intranet-en.html" tabindex="-1" aria-posinset="3" aria-setsize="7" role="menuitem">Selling</a></li>
-						<li><a class="item" href="faq-en.html" tabindex="-1" aria-posinset="6" aria-setsize="7" role="menuitem">FAQs</a></li>
-						<li><a class="item" href="contact-en.html" tabindex="-1" aria-posinset="7" aria-setsize="7" role="menuitem">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav> <!-- end of main navigation-->
-	</div> <!-- end of header-->
-
+         <div class="app-bar" aria-label="Website header">
+            <div class="container">
+               <div class="row">
+                  <section class="col-xs-12">
+                     <h2 class="wb-inv">Name of Web application</h2>
+                     <a class="app-name" href="./index-en.html">Hi/Max Real Estate</a> 					
+                  </section>
+               </div>
+            </div>
+         </div>
+        <nav id="wb-sm" aria-label="Main navigation" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl" 			class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited" 			typeof="SiteNavigationElement">
+            <div class="pnl-strt container nvbar">
+               <h2>Topics menu</h2>
+               <div class="row">
+                  <ul role="menubar" class="list-inline menu">
+                     <li><a class="item" href="index-en.html" tabindex="0" aria-posinset="1" aria-setsize="7" 								role="menuitem">Home</a></li>
+                     <li><a class="item" href="internet-en.html" tabindex="-1" aria-posinset="2" aria-setsize="7" 								role="menuitem">Buying</a></li>
+                     <li><a class="item" href="intranet-en.html" tabindex="-1" aria-posinset="3" aria-setsize="7" 								role="menuitem">Selling</a></li>
+                     <li><a class="item" href="faq-en.html" tabindex="-1" aria-posinset="6" aria-setsize="7" 								role="menuitem">FAQs</a></li>
+                     <li><a class="item" href="contact-en.html" tabindex="-1" aria-posinset="7" aria-setsize="7" 								role="menuitem">Contact us</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+        <!-- end of main navigation--> 	
+     </div>
+     <!-- end of header--> 	
 	
 	<main role="main" aria-label="Main content" class="container">  <!-- start of Main content-->
 		<h1>Welcome</h1>
